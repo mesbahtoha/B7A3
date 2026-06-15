@@ -151,14 +151,9 @@ SELECT * FROM Bookings;
 
 ---
 
-## 📹 Theory Video
+## 📹 Theory Video (Viva Practice)
 
-> **Video Link:** [Click here](#) ← Replace with your Google Drive / YouTube Unlisted link
-
-**Questions Answered:**
-Question 1: What role does a Foreign Key play in the Bookings table, and how does it safeguard against entering a ticket sale for a match that doesn't exist?
-Question 2: Why are we unable to use an aggregate function like COUNT(booking_id) inside a standard WHERE clause to filter match rows? How does HAVING solve this?
-Question 3: If a Primary Key column guarantees that all row entries are completely unique, why does the database system also explicitly forbid it from containing a NULL value?
+> **Video Link:** [Click here](https://drive.google.com/file/d/12ePuGY2I9pvkl990xytgSbaXqX7XGMAJ/view?usp=sharing)
 
 ---
 
