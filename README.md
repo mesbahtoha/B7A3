@@ -1,9 +1,8 @@
-# B7A3: 🎫 Football Ticket Booking System
+# 🎫 Football Ticket Booking System
 ### Database Design & SQL Queries Assignment
 
 **Author:** Md. Mesbahul Alam  
 **Database:** PostgreSQL  
-**Course:** Database Management Systems
 
 ---
 
@@ -21,8 +20,7 @@ This project implements a **Football Ticket Booking System** database that manag
 ```
 ├── README.md          → Project documentation (this file)
 ├── QUERY.sql          → Full DDL, sample data, and all SQL queries
-└── ERD/
-    └── ERD_link.md    → Public draw.io ERD diagram link
+└── ERD.png            → draw.io ERD diagram screenshot
 ```
 
 ---
@@ -61,7 +59,7 @@ This project implements a **Football Ticket Booking System** database that manag
 
 ## 🔗 Entity Relationship Diagram (ERD)
 
-> **ERD Link:** [Click here to view the ERD on draw.io](#) ← Replace with your public draw.io link
+> **ERD Link:** [Click here to view the ERD on draw.io](https://drive.google.com/file/d/1i89Jvld4A-R0iPniZ5a9n1dvybFrfomK/view?usp=sharing)
 
 ### Relationships:
 - **One User → Many Bookings** (A fan can buy tickets for multiple matches)
@@ -158,9 +156,9 @@ SELECT * FROM Bookings;
 > **Video Link:** [Click here](#) ← Replace with your Google Drive / YouTube Unlisted link
 
 **Questions Answered:**
-1. Question X — ...
-2. Question X — ...
-3. Question X — ...
+Question 1: What role does a Foreign Key play in the Bookings table, and how does it safeguard against entering a ticket sale for a match that doesn't exist?
+Question 2: Why are we unable to use an aggregate function like COUNT(booking_id) inside a standard WHERE clause to filter match rows? How does HAVING solve this?
+Question 3: If a Primary Key column guarantees that all row entries are completely unique, why does the database system also explicitly forbid it from containing a NULL value?
 
 ---
 
